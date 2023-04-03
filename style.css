@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body > header {
+    background-color: dodgerblue;
+    color: white;
+    padding:30px;
+}
+
+body > header > nav {
+    color: transparent;
+}
+
+body > header > nav > li > a {
+    color: white;
+}
+
+#article-to-comments-div {
+    margin: auto;
+    width: 70%;
+}
+
+#comment-form {
+    width: 90%;
+    padding: 50px;
+}
+
+#submit-comment {
+    float: right;
+}
+
+#footer-container {
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+}
